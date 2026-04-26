@@ -1,0 +1,50 @@
+{
+  "schema_version": "0.1",
+  "timestamp": "2026-01-01T00:00:00+00:00",
+  "framework": "Demiurgic Cosmology Lattice Runtime",
+  "coordinate": {
+    "dimension_id": 6,
+    "field_variable_id": 2,
+    "scale_id": 6,
+    "archetype_id": 10
+  },
+  "observer_anchor": {
+    "omega_id": "omega_demo_001",
+    "observer_role": "individual",
+    "epistemic_stance": "critical-realism",
+    "confidence": 0.72,
+    "bias_notes": "recent stress cycle"
+  },
+  "claim": "Recurring extraction pattern reduces agency despite local coherence practices.",
+  "evidence": {
+    "grade": 2,
+    "source_type": "journal",
+    "summary": "Repeated loop observed over 14 days with same trigger chain.",
+    "counter_evidence": "Two days showed improved agency after boundary action."
+  },
+  "scores": {
+    "B": 0.7,
+    "R": 0.85,
+    "I_g": 0.55,
+    "S": 0.65,
+    "E_x": 0.75,
+    "D_c": 0.45,
+    "C_o": 0.5,
+    "K": 0.6,
+    "A": 0.48,
+    "M": 0.55,
+    "L_v": 0.4,
+    "R_s": 0.52
+  },
+  "computed": {
+    "D_score": 0.6583333333333333,
+    "Phi_score": 0.5083333333333333,
+    "DCR": 1.2950794195158961,
+    "CMI": 0.6791786991753931,
+    "classification": "prison_extraction_field",
+    "phi369_threshold_met": false,
+    "dominant_constraint": "R",
+    "dominant_coherence": "K"
+  },
+  "receipt_id": "dcl_obs_f5f13f8a1ee62c33"
+}
