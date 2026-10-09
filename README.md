@@ -1,4 +1,4 @@
-# DCL Runtime v0.1
+# DCL Runtime v0.1 · Open Source
 
 DCL — Demiurgic Cosmology Lattice Runtime is a local-first Python runtime for validating, verifying, snapshotting, comparing, and analyzing observation receipts from the DCL Observatory frontend.
 
@@ -85,6 +85,12 @@ Recommendations are ranked by:
 - No telemetry
 - No hidden background services
 
-## Private repository note
+## License
 
-This repository is proprietary/private under PHI369 Labs / Parallax unless explicitly relicensed later.
+MIT License, copyright (c) 2026 PHI369 Labs / Parallax. See [LICENSE](LICENSE). Third-party material remains under its respective rights and attribution requirements.
+
+## DCL Observatory (React)
+
+An interactive static website lives in [`site/`](site/README.md). It runs the documented scoring equations against a local, illustrative scenario and shows the repository's sample observation receipt. **It is not the Python receipt verifier**, and its downloads are not canonical verified receipts.
+
+**Website after enabling GitHub Actions Pages:** https://michaelwave369.github.io/DCL/
