@@ -9,10 +9,10 @@ test("actual DCL React app renders on server, not just compiles",async()=>{
   try{
     const {default:App}=await vite.ssrLoadModule("/src/App.jsx");
     const html=renderToStaticMarkup(React.createElement(App));
-    assert.match(html,/DCL Observatory/i);
+    assert.match(html,/OBSERVATORY/);
     assert.match(html,/Constraint/i);
     assert.match(html,/Coherence/i);
     assert.match(html,/Observation receipt/i);
-    assert.match(html,/does not prove/i);
+    assert.match(html,/cannot demonstrate/i);
   }finally{await vite.close()}
 });
